@@ -102,6 +102,16 @@
             ]
         }
     },
+    "topbarLinks": [ 
+      {
+        "name": "English",
+        "url": "/en/introduction" 
+      },
+      {
+        "name": "Türkçe",
+        "url": "/tr/giris" 
+      }
+    ],
     "navbar": {
         "links": [
             {
