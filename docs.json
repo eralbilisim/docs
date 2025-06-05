@@ -1,102 +1,128 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
+    "$schema": "https://mintlify.com/docs.json",
+    "name": "HealthPass.run Whitepaper",
+    "theme": "mint",
+    "colors": {
+        "primary": "#1DB954",
+        "light": "#29D967",
+        "dark": "#107A38"
+    },
+    "favicon": "/favicon.svg",
+    "logo": {
+        "light": "/logo/healthpass_light.svg",
+        "dark": "/logo/healthpass_dark.svg"
+    },
+    "navigation": {
+        "tabs": [
+            {
+                "tab": "Whitepaper",
+                "groups": [
+                    {
+                        "group": "Introduction",
+                        "pages": [
+                            "whitepaper/introduction",
+                            "whitepaper/problem-and-solution",
+                            "whitepaper/vision-and-mission"
+                        ]
+                    },
+                    {
+                        "group": "Project Details",
+                        "pages": [
+                            "whitepaper/what-is-healthpass-nft",
+                            "whitepaper/nft-tiers-and-rarity",
+                            "whitepaper/benefits-for-holders"
+                        ]
+                    },
+                    {
+                        "group": "Technology",
+                        "pages": [
+                            "whitepaper/hpai-artificial-intelligence",
+                            "whitepaper/blockchain-and-smart-contracts",
+                            "whitepaper/data-privacy-and-security"
+                        ]
+                    },
+                    {
+                        "group": "Tokenomics & Funding",
+                        "pages": [
+                            "whitepaper/mint-proceeds-allocation",
+                            "whitepaper/royalty-distribution",
+                            "whitepaper/future-token-hpt"
+                        ]
+                    },
+                    {
+                        "group": "Roadmap & Team",
+                        "pages": [
+                            "whitepaper/project-roadmap",
+                            "whitepaper/team-and-advisors",
+                            "whitepaper/partnerships"
+                        ]
+                    },
+                    {
+                        "group": "Community & How to Participate",
+                        "pages": [
+                            "whitepaper/community-channels",
+                            "whitepaper/how-to-get-nft"
+                        ]
+                    },
+                    {
+                        "group": "Frequently Asked Questions (FAQ)",
+                        "pages": [
+                            "whitepaper/faq-general",
+                            "whitepaper/faq-technical",
+                            "whitepaper/faq-investment"
+                        ]
+                    },
+                    {
+                        "group": "Legal",
+                        "pages": [
+                            "whitepaper/disclaimer",
+                            "whitepaper/risks"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "global": {
+            "anchors": [
+                {
+                    "anchor": "HealthPass.run Home",
+                    "href": "https://healthpass.run",
+                    "icon": "home"
+                },
+                {
+                    "anchor": "Community (Discord)",
+                    "href": "https://discord.gg/examplehealthpass",
+                    "icon": "discord"
+                },
+                {
+                    "anchor": "Twitter (X)",
+                    "href": "https://x.com/healthpassrun_example",
+                    "icon": "twitter"
+                }
             ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
-      ]
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Contact Us",
+                "href": "mailto:info@healthpass.run"
+            }
+        ]
+    },
+    "footer": {
+        "socials": {
+            "x": "https://x.com/healthpass_example_x",
+            "discord": "https://discord.com/invite/examplehealthpass_footer",
+            "telegram": "https://t.me/healthpass_example_channel"
+        },
+        "copyright": "© 2024 HealthPass.run. All rights reserved."
+    },
+    "analytics": {
+        "ga4": "G-XXXXXXXXXX"
+    },
+    "feedback": {
+        "thumbsRating": true,
+        "suggestEdit": true
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
 }
